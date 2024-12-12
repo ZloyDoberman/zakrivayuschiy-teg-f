@@ -13,7 +13,7 @@
 .page {
   padding-block-start: 100px;
   padding-block-end: 100px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-image: var(--background-color-page);
   background-size: cover;
   background-attachment: fixed;
@@ -101,7 +101,6 @@
   text-shadow: 0 0 1 #fff;
   mix-blend-mode: hard-light;
 }
-
 
 .post_bottom {
   display: flex;
@@ -231,7 +230,7 @@
 }
 
 .buttons::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background-color: var(--accent-color, #000);
@@ -251,7 +250,7 @@
 }
 
 .contour {
-  fill:var(--color-contour);
+  fill: var(--color-contour);
   transition: fill 0.3s 0.06s linear;
 }
 
@@ -290,12 +289,10 @@
   transition: fill 0.3s linear;
 }
 
-
 .like-icon.is-liked .core {
   fill: var(--color-sparks);
   transition: fill 0.3s 0.03s linear;
 }
-
 
 .like-icon.is-liked .contour {
   fill: var(--color-sparks);
@@ -337,7 +334,6 @@
   100% {
     opacity: 0;
   }
- 
 }
 
 .images:hover {
@@ -410,25 +406,23 @@
   .header_title {
     font-size: var(--font-size-mini-mob-title);
   }
-  
+
   .header_subtitle {
     font-size: var(--font-size-mini-mob-subtitle);
   }
 }
 
-
-@supports (font-variation-settings: normal) { 
+@supports (font-variation-settings: normal) {
   .page {
     font-family: var(--inter);
     font-weight: var(--font-weight-content-inter);
   }
 }
 
-@supports((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
+@supports ((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
   .post_label {
-      text-shadow: none;
-      -webkit-text-stroke: 1px #fff;
-      text-stroke: 1px #fff;
+    text-shadow: none;
+    -webkit-text-stroke: 1px #fff;
+    text-stroke: 1px #fff;
   }
 }
-
