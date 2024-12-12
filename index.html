@@ -1,18 +1,494 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Закрывающий тег</title>
-    <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/variables.css" />
-    <link rel="stylesheet" href="./styles/globals.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/animations.css" />
-  </head>
-  <body class="page">
-    <header class="header"></header>
-    <main></main>
-    <script src="./scripts/like.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Закрывающий тег</title>
+  <link rel="stylesheet" href="./fonts/fonts.css" />
+  <link rel="stylesheet" href="./styles/variables.css" />
+  <link rel="stylesheet" href="./styles/globals.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/animations.css" />
+  <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="./images/favicon.png" />
+</head>
+
+<body class="page">
+  <header class="header">
+    <div class="header__block-title">
+      <h1 class="header_title">&lt;/HTML&gt;</h1>
+      <h2 class="header_subtitle">закрывающий тег</h2>
+    </div>
+  </header>
+  <main class="main_content">
+    <section class="content_sprint">
+      <div class="post">
+        <div class="post_top">
+          <h2 class="post_title">
+            Фритрек и нулевой спринт: Подготовка к работе
+          </h2>
+        </div>
+        <div class="post_img">
+          <img
+            src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb296Z3BkaXIwZ3VqMGV6cGlmMzl1ODVhNXZuc2JmYTdyYnF2c3BobSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ohc0ZRliclUMt98Va/giphy.webp"
+            alt="Коллегия Винтерхолда" class="images filter-college_of_winterhold" loading="lazy" />
+          <span class="post_label">&lt;/HTML&gt;</span>
+        </div>
+        <div class="post_bottom">
+          <ul class="paragraphs">
+            <li class="post_paragraph">
+              <p class="post_content">
+                Это было самое начало пути. На&nbsp;этом этапе важно было
+                проникнуться основами и&nbsp;настроиться на&nbsp;учёбу. И,
+                возможно, подумать, как новые знания могут повлиять
+                на&nbsp;ваше будущее.
+              </p>
+            </li>
+            <li class="post_paragraph">
+              <blockquote cite="https://citaty.info/game/the-elder-scrolls-v-skyrim">
+                <p class="post_content">
+                  Помни! Твой разум — твое самое сильное оружие...
+                  <br>
+                  <p class="post_content author_quote">- Фаренгар Тайный Огонь</p>
+                </p>
+              </blockquote>
+            </li>
+          </ul>
+          <div class="post_buttons">
+            <button class="card__icon-button" type="button">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="like-icon" viewBox="0 0 40 40">
+                <g class="heart">  
+                <path class = "contour" fill="var(--color-contour)"
+                    d="M12 6H9v3h3V6Zm3 0h-3v3h3V6ZM9 9H6v3h3V9Zm0 3H6v3h3v-3Zm0 3H6v3h3v-3Zm9-9h-3v3h3V6Zm-6 12H9v3h3v-3Zm3 3h-3v3h3v-3Zm3 3h-3v3h3v-3Zm9-18h3v3h-3V6Zm-3 0h3v3h-3V6Zm6 3h3v3h-3V9Zm0 3h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-9-9h3v3h-3V6Zm6 12h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0-18h-3v3h3V9Z" />
+                  <path class="main-body" fill="none"
+                    d="M12 9H9v3h3V9Zm3 3h-3v3h3v-3Zm3-3h-3v3h3V9Zm-6 6H9v3h3v-3Zm3 0h-3v3h3v-3Zm0 3h-3v3h3v-3Zm3-6h-3v3h3v-3Zm0 9h-3v3h3v-3Zm0-3h-3v3h3v-3Zm9-9h3v3h-3V9Zm-3 0h3v3h-3V9Zm3 3h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm-3-3h3v3h-3V9Zm6 6h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-3-6h3v3h-3v-3Zm0 9h3v3h-3v-3Zm0-3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0 3h-3v3h3v-3Z" />
+                  <path class = "core" fill="none" d="M18 15h-3v3h3v-3Zm3 0h3v3h-3v-3Zm0 0h-3v3h3v-3Zm0-3h-3v3h3v-3Zm0 6h-3v3h3v-3Z" />
+                  <path class="sparks" fill="var(--color-sparks)"
+                    d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z" />
+                </g>
+                  </svg>
+            </button>
+            <button class="buttons card__like-button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content_sprint">
+      <div class="post">
+        <div class="post_top">
+          <h2 class="post_title">
+            1 спринт: Я — чистый лист
+          </h2>
+        </div>
+        <div class="post_img">
+          <img
+            src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2s4cWl2bTBoazB5dng1a2syaWdvenEwbGE2eXFsM21xaDc2ODR5eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TAdayXZ1EB9kc/giphy.webp"
+            alt="Сюжет из Skyrim, дракон против война" class="images filter-warrior_vs_dragon" loading="lazy" />
+          <span class="post_label">&lt;/HTML&gt;</span>
+        </div>
+        <div class="post_bottom">
+          <ul class="paragraphs">
+            <li class="post_paragraph">
+              <p class="post_content">
+                На&nbsp;первых этапах мы&nbsp;работали со&nbsp;страхами
+                и&nbsp;сомнениями, которые часто испытывают новички. Один
+                из&nbsp;них&nbsp;&mdash; страх перед чистым листом. Это,
+                конечно&nbsp;же, намного сложнее, чем боязнь куска бумаги.
+                Часто за&nbsp;этим ощущением скрываются более глубокие
+                вопросы: с&nbsp;чего начать? а&nbsp;вдруг будет слишком
+                сложно? что, если я&nbsp;не&nbsp;справлюсь?
+              </p>
+            </li>
+            <li class="post_paragraph">
+              <blockquote cite="https://bbf.ru/quotes/source/83142/">
+                <p class="post_content">
+                  Стремись к истине. Блюди закон. Пребывая в сомнении, ищи совета у мудрых.
+                  <br>
+                  <p class="post_content author_quote">- Джулианос</p>
+                </p>
+              </blockquote>
+            </li>
+          </ul>
+          <div class="post_buttons">
+            <button class="card__icon-button" type="button">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="like-icon" viewBox="0 0 40 40">
+                <g class="heart">  
+                <path class = "contour" fill="var(--color-contour)"
+                    d="M12 6H9v3h3V6Zm3 0h-3v3h3V6ZM9 9H6v3h3V9Zm0 3H6v3h3v-3Zm0 3H6v3h3v-3Zm9-9h-3v3h3V6Zm-6 12H9v3h3v-3Zm3 3h-3v3h3v-3Zm3 3h-3v3h3v-3Zm9-18h3v3h-3V6Zm-3 0h3v3h-3V6Zm6 3h3v3h-3V9Zm0 3h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-9-9h3v3h-3V6Zm6 12h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0-18h-3v3h3V9Z" />
+                  <path class="main-body" fill="none"
+                    d="M12 9H9v3h3V9Zm3 3h-3v3h3v-3Zm3-3h-3v3h3V9Zm-6 6H9v3h3v-3Zm3 0h-3v3h3v-3Zm0 3h-3v3h3v-3Zm3-6h-3v3h3v-3Zm0 9h-3v3h3v-3Zm0-3h-3v3h3v-3Zm9-9h3v3h-3V9Zm-3 0h3v3h-3V9Zm3 3h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm-3-3h3v3h-3V9Zm6 6h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-3-6h3v3h-3v-3Zm0 9h3v3h-3v-3Zm0-3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0 3h-3v3h3v-3Z" />
+                  <path class = "core" fill="none" d="M18 15h-3v3h3v-3Zm3 0h3v3h-3v-3Zm0 0h-3v3h3v-3Zm0-3h-3v3h3v-3Zm0 6h-3v3h3v-3Z" />
+                  <path class="sparks" fill="var(--color-sparks)"
+                    d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z" />
+                </g>
+                  </svg>
+            </button>
+            <button class="buttons card__like-button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content_sprint">
+      <div class="post">
+        <div class="post_top">
+          <h2 class="post_title">
+            1 спринт: А если не получится?
+          </h2>
+        </div>
+        <div class="post_img">
+          <img
+            src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGtnbzM4Ym5kems1OXk4N3d2NjR5d3hwenppOW8ycmZvOGYydGtzMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BETRgfrzXXuo0/giphy.webp"
+            alt="Довакин защищается от парвозика Томаса" class="images filter-dovahkin_vs_tomas" loading="lazy" />
+          <span class="post_label">&lt;/HTML&gt;</span>
+        </div>
+        <div class="post_bottom">
+          <ul class="paragraphs">
+            <li class="post_paragraph">
+              <p class="post_content">
+                Первый проект&nbsp;&mdash; позади! Но&nbsp;это всё ещё самое
+                начало пути. Радость могла быстро померкнуть и&nbsp;смениться
+                ожиданием провала. Или&nbsp;вы, наоборот, могли вдохновиться
+                успехами и&nbsp;поверить в&nbsp;себя.
+              </p>
+            </li>
+            <li class="post_paragraph">
+              <blockquote cite="https://bbf.ru/quotes/source/83142/">
+                <p class="post_content">
+                  Залог успеха внутри тебя! Никогда не забывай об этом!
+                  <br>
+                  <p class="post_content author_quote">- Куаранир</p>
+                </p>
+              </blockquote>
+            </li>
+          </ul>
+          <div class="post_buttons">
+            <button class="card__icon-button" type="button">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="like-icon" viewBox="0 0 40 40">
+                <g class="heart">  
+                <path class = "contour" fill="var(--color-contour)"
+                    d="M12 6H9v3h3V6Zm3 0h-3v3h3V6ZM9 9H6v3h3V9Zm0 3H6v3h3v-3Zm0 3H6v3h3v-3Zm9-9h-3v3h3V6Zm-6 12H9v3h3v-3Zm3 3h-3v3h3v-3Zm3 3h-3v3h3v-3Zm9-18h3v3h-3V6Zm-3 0h3v3h-3V6Zm6 3h3v3h-3V9Zm0 3h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-9-9h3v3h-3V6Zm6 12h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0-18h-3v3h3V9Z" />
+                  <path class="main-body" fill="none"
+                    d="M12 9H9v3h3V9Zm3 3h-3v3h3v-3Zm3-3h-3v3h3V9Zm-6 6H9v3h3v-3Zm3 0h-3v3h3v-3Zm0 3h-3v3h3v-3Zm3-6h-3v3h3v-3Zm0 9h-3v3h3v-3Zm0-3h-3v3h3v-3Zm9-9h3v3h-3V9Zm-3 0h3v3h-3V9Zm3 3h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm-3-3h3v3h-3V9Zm6 6h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-3-6h3v3h-3v-3Zm0 9h3v3h-3v-3Zm0-3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0 3h-3v3h3v-3Z" />
+                  <path class = "core" fill="none" d="M18 15h-3v3h3v-3Zm3 0h3v3h-3v-3Zm0 0h-3v3h3v-3Zm0-3h-3v3h3v-3Zm0 6h-3v3h3v-3Z" />
+                  <path class="sparks" fill="var(--color-sparks)"
+                    d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z" />
+                </g>
+                  </svg>
+            </button>
+            <button class="buttons card__like-button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content_sprint">
+      <div class="post">
+        <div class="post_top">
+          <h2 class="post_title">
+            2 спринт: Погоня за идеалом
+          </h2>
+        </div>
+        <div class="post_img">
+          <img
+            src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWJncTVzcWlyOXNiNDVjYzhrc3Y1dzB0ODYwZmJqMTlocjlrM2V4aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FqFP03t7uuFaw/giphy.webp"
+            alt="Лорд Мирак поглащает душу дракона" class="images filter-lord_miraak" loading="lazy" />
+          <span class="post_label">&lt;/HTML&gt;</span>
+        </div>
+        <div class="post_bottom">
+          <ul class="paragraphs">
+            <li class="post_paragraph">
+              <p class="post_content">
+                На&nbsp;этом этапе вы&nbsp;уже достаточно разбирались
+                в&nbsp;основах вёрстки, чтобы понять, как много ещё впереди.
+                Вы&nbsp;могли попытаться погнаться за&nbsp;идеалом
+                и&nbsp;понять, что он&nbsp;недостижим. А, может, вы&nbsp;вовсе
+                и&nbsp;не&nbsp;подвержены перфекционизму и&nbsp;вместо того,
+                чтобы сделать идеально, старались просто сделать.
+              </p>
+            </li>
+            <li class="post_paragraph">
+              <blockquote cite="https://bbf.ru/quotes/source/83142/">
+                <p class="post_content">
+                  Битву выигрывает опытный и дисциплинированный. Войну же выигрывает талантливый.
+                  <br>
+                  <p class="post_content author_quote">- Генерал Туллий</p>
+                </p>
+              </blockquote>
+            </li>
+          </ul>
+          <div class="post_buttons">
+            <button class="card__icon-button" type="button">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="like-icon" viewBox="0 0 40 40">
+                <g class="heart">  
+                <path class = "contour" fill="var(--color-contour)"
+                    d="M12 6H9v3h3V6Zm3 0h-3v3h3V6ZM9 9H6v3h3V9Zm0 3H6v3h3v-3Zm0 3H6v3h3v-3Zm9-9h-3v3h3V6Zm-6 12H9v3h3v-3Zm3 3h-3v3h3v-3Zm3 3h-3v3h3v-3Zm9-18h3v3h-3V6Zm-3 0h3v3h-3V6Zm6 3h3v3h-3V9Zm0 3h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-9-9h3v3h-3V6Zm6 12h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0-18h-3v3h3V9Z" />
+                  <path class="main-body" fill="none"
+                    d="M12 9H9v3h3V9Zm3 3h-3v3h3v-3Zm3-3h-3v3h3V9Zm-6 6H9v3h3v-3Zm3 0h-3v3h3v-3Zm0 3h-3v3h3v-3Zm3-6h-3v3h3v-3Zm0 9h-3v3h3v-3Zm0-3h-3v3h3v-3Zm9-9h3v3h-3V9Zm-3 0h3v3h-3V9Zm3 3h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm-3-3h3v3h-3V9Zm6 6h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-3-6h3v3h-3v-3Zm0 9h3v3h-3v-3Zm0-3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0 3h-3v3h3v-3Z" />
+                  <path class = "core" fill="none" d="M18 15h-3v3h3v-3Zm3 0h3v3h-3v-3Zm0 0h-3v3h3v-3Zm0-3h-3v3h3v-3Zm0 6h-3v3h3v-3Z" />
+                  <path class="sparks" fill="var(--color-sparks)"
+                    d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z" />
+                </g>
+                  </svg>
+            </button>
+            <button class="buttons card__like-button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content_sprint">
+      <div class="post">
+        <div class="post_top">
+          <h2 class="post_title">
+            2 спринт: О тех, кто рядом
+          </h2>
+        </div>
+        <div class="post_img">
+          <img
+            src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXQyeDNteDNieXQ1enJwNzZzYWdmbjN5YWIwa2hzMW40cG50d3kzdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ej1PP57VRL1752HmdN/giphy.webp"
+            alt="Команда искателей приключений" class="images filter-commandos" loading="lazy" />
+          <span class="post_label">&lt;/HTML&gt;</span>
+        </div>
+        <div class="post_bottom">
+          <ul class="paragraphs">
+            <li class="post_paragraph">
+              <p class="post_content">
+                Всё это время вы&nbsp;были не&nbsp;одиноки (хотя, возможно,
+                иногда и&nbsp;чувствовали, что одни против целого мира). Вас
+                окружали одногруппники, команда сопровождения и&nbsp;просто
+                близкие люди, которым можно пожаловаться, если очередной макет
+                просто так не&nbsp;поддавался. Осваивать что-то новое легче,
+                когда рядом есть единомышленники, не&nbsp;правда&nbsp;ли?
+              </p>
+            </li>
+            <li class="post_paragraph">
+              <blockquote cite="https://bbf.ru/quotes/source/83142/">
+                <p class="post_content">
+                  То, чему ты здесь научишься, будет помогать тебе на протяжении всей жизни. А то и нескольких жизней, если у тебя есть талант.
+                  <br>
+                  <p class="post_content author_quote">- Савос Арен</p>
+                </p>
+              </blockquote>
+            </li>
+          </ul>
+          <div class="post_buttons">
+            <button class="card__icon-button" type="button">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="like-icon" viewBox="0 0 40 40">
+                <g class="heart">  
+                <path class = "contour" fill="var(--color-contour)"
+                    d="M12 6H9v3h3V6Zm3 0h-3v3h3V6ZM9 9H6v3h3V9Zm0 3H6v3h3v-3Zm0 3H6v3h3v-3Zm9-9h-3v3h3V6Zm-6 12H9v3h3v-3Zm3 3h-3v3h3v-3Zm3 3h-3v3h3v-3Zm9-18h3v3h-3V6Zm-3 0h3v3h-3V6Zm6 3h3v3h-3V9Zm0 3h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-9-9h3v3h-3V6Zm6 12h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0-18h-3v3h3V9Z" />
+                  <path class="main-body" fill="none"
+                    d="M12 9H9v3h3V9Zm3 3h-3v3h3v-3Zm3-3h-3v3h3V9Zm-6 6H9v3h3v-3Zm3 0h-3v3h3v-3Zm0 3h-3v3h3v-3Zm3-6h-3v3h3v-3Zm0 9h-3v3h3v-3Zm0-3h-3v3h3v-3Zm9-9h3v3h-3V9Zm-3 0h3v3h-3V9Zm3 3h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm-3-3h3v3h-3V9Zm6 6h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-3-6h3v3h-3v-3Zm0 9h3v3h-3v-3Zm0-3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0 3h-3v3h3v-3Z" />
+                  <path class = "core" fill="none" d="M18 15h-3v3h3v-3Zm3 0h3v3h-3v-3Zm0 0h-3v3h3v-3Zm0-3h-3v3h3v-3Zm0 6h-3v3h3v-3Z" />
+                  <path class="sparks" fill="var(--color-sparks)"
+                    d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z" />
+                </g>
+                  </svg>
+            </button>
+            <button class="buttons card__like-button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content_sprint">
+      <div class="post">
+        <div class="post_top">
+          <h2 class="post_title">
+            3 спринт: Обходные стратегии
+          </h2>
+        </div>
+        <div class="post_img">
+          <img
+            src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnFkZXZseWFoNjlkdnRmZ3kwNzVoYWI3YXliZTJ1NzVtdGxpNmlzbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XEPS3RCCvvRiyD4KVF/giphy.webp"
+            alt="Орк колдует" class="images filter-orc" loading="lazy" />
+          <span class="post_label">&lt;/HTML&gt;</span>
+        </div>
+        <div class="post_bottom">
+          <ul class="paragraphs">
+            <li class="post_paragraph">
+              <p class="post_content">
+                На&nbsp;этом курсе вы&nbsp;постоянно решали разные задачи.
+                В&nbsp;какой-то момент вам могло показаться, что решения
+                просто иссякли. Значит, пришло время посмотреть на&nbsp;задачу
+                под другим углом.
+              </p>
+            </li>
+            <li class="post_paragraph">
+              <blockquote cite="https://bbf.ru/quotes/source/83142/">
+                <p class="post_content">
+                  Если мир таков, каков он есть, это не значит, что он останется таким навсегда.
+                  <br>
+                  <p class="post_content author_quote">- Йорлунд Серая Грива</p>
+                </p>
+              </blockquote>
+            </li>
+          </ul>
+          <div class="post_buttons">
+            <button class="card__icon-button" type="button">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="like-icon" viewBox="0 0 40 40">
+                <g class="heart">  
+                <path class = "contour" fill="var(--color-contour)"
+                    d="M12 6H9v3h3V6Zm3 0h-3v3h3V6ZM9 9H6v3h3V9Zm0 3H6v3h3v-3Zm0 3H6v3h3v-3Zm9-9h-3v3h3V6Zm-6 12H9v3h3v-3Zm3 3h-3v3h3v-3Zm3 3h-3v3h3v-3Zm9-18h3v3h-3V6Zm-3 0h3v3h-3V6Zm6 3h3v3h-3V9Zm0 3h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-9-9h3v3h-3V6Zm6 12h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0-18h-3v3h3V9Z" />
+                  <path class="main-body" fill="none"
+                    d="M12 9H9v3h3V9Zm3 3h-3v3h3v-3Zm3-3h-3v3h3V9Zm-6 6H9v3h3v-3Zm3 0h-3v3h3v-3Zm0 3h-3v3h3v-3Zm3-6h-3v3h3v-3Zm0 9h-3v3h3v-3Zm0-3h-3v3h3v-3Zm9-9h3v3h-3V9Zm-3 0h3v3h-3V9Zm3 3h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm-3-3h3v3h-3V9Zm6 6h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-3-6h3v3h-3v-3Zm0 9h3v3h-3v-3Zm0-3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0 3h-3v3h3v-3Z" />
+                  <path class = "core" fill="none" d="M18 15h-3v3h3v-3Zm3 0h3v3h-3v-3Zm0 0h-3v3h3v-3Zm0-3h-3v3h3v-3Zm0 6h-3v3h3v-3Z" />
+                  <path class="sparks" fill="var(--color-sparks)"
+                    d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z" />
+                </g>
+                  </svg>
+            </button>
+            <button class="buttons card__like-button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content_sprint">
+      <div class="post">
+        <div class="post_top">
+          <h2 class="post_title">
+            3 спринт: Когда опускаются руки
+          </h2>
+        </div>
+        <div class="post_img">
+          <img
+            src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzFqamw1ZTFjZDRkdmg1NGdkaGFscml6NDNyZ280cWl3d21rMnFqMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TdRsC6j6I5EwI0xOpQ/giphy.webp"
+            alt="Каджит огрызается" class="images filter-khajiit" loading="lazy" />
+          <span class="post_label">&lt;/HTML&gt;</span>
+        </div>
+        <div class="post_bottom">
+          <ul class="paragraphs">
+            <li class="post_paragraph">
+              <p class="post_content">
+                Во&nbsp;время учёбы часто возникает чувство, когда
+                не&nbsp;знаешь, за&nbsp;что хвататься. Вроде и&nbsp;проектную
+                пора сдавать, и&nbsp;задачи хочется порешать,
+                и&nbsp;в&nbsp;теории получше разобраться, и&nbsp;жизнь
+                не&nbsp;забыть пожить. В&nbsp;такие моменты очень нужна
+                концентрация. Вспомните, откуда вы&nbsp;её&nbsp;черпали.
+              </p>
+            </li>
+            <li class="post_paragraph">
+              <blockquote cite="https://bbf.ru/quotes/source/83142/">
+                <p class="post_content">
+                  Раньше меня тоже вела дорога приключений, а потом мне прострелили колено.
+                  <br>
+                  <p class="post_content author_quote">- Стражник</p>
+                </p>
+              </blockquote>
+            </li>
+          </ul>
+          <div class="post_buttons">
+            <button class="card__icon-button" type="button">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="like-icon" viewBox="0 0 40 40">
+                <g class="heart">  
+                <path class = "contour" fill="var(--color-contour)"
+                    d="M12 6H9v3h3V6Zm3 0h-3v3h3V6ZM9 9H6v3h3V9Zm0 3H6v3h3v-3Zm0 3H6v3h3v-3Zm9-9h-3v3h3V6Zm-6 12H9v3h3v-3Zm3 3h-3v3h3v-3Zm3 3h-3v3h3v-3Zm9-18h3v3h-3V6Zm-3 0h3v3h-3V6Zm6 3h3v3h-3V9Zm0 3h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-9-9h3v3h-3V6Zm6 12h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0-18h-3v3h3V9Z" />
+                  <path class="main-body" fill="none"
+                    d="M12 9H9v3h3V9Zm3 3h-3v3h3v-3Zm3-3h-3v3h3V9Zm-6 6H9v3h3v-3Zm3 0h-3v3h3v-3Zm0 3h-3v3h3v-3Zm3-6h-3v3h3v-3Zm0 9h-3v3h3v-3Zm0-3h-3v3h3v-3Zm9-9h3v3h-3V9Zm-3 0h3v3h-3V9Zm3 3h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm-3-3h3v3h-3V9Zm6 6h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-3-6h3v3h-3v-3Zm0 9h3v3h-3v-3Zm0-3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0 3h-3v3h3v-3Z" />
+                  <path class = "core" fill="none" d="M18 15h-3v3h3v-3Zm3 0h3v3h-3v-3Zm0 0h-3v3h3v-3Zm0-3h-3v3h3v-3Zm0 6h-3v3h3v-3Z" />
+                  <path class="sparks" fill="var(--color-sparks)"
+                    d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z" />
+                </g>
+                  </svg>
+            </button>
+            <button class="buttons card__like-button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content_sprint">
+      <div class="post">
+        <div class="post_top">
+          <h2 class="post_title">
+            «Сейчас я здесь»
+          </h2>
+        </div>
+        <div class="post_img">
+          <img
+            src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2g2czFwczhucXVxazA1emt4NmhkaHB6aXMyamdmb2hnYWxqOG9qMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WqXCInn2gEwgkMrbiF/giphy.webp"
+            alt="Бретонец из промо TESO" class="images filter-breton" loading="lazy" />
+          <span class="post_label">&lt;/HTML&gt;</span>
+        </div>
+        <div class="post_bottom">
+          <ul class="paragraphs">
+            <li class="post_paragraph">
+              <p class="post_content">
+                Сейчас вы&nbsp;уже очень много знаете о&nbsp;вёрстке.
+                Но&nbsp;это только начало. Во-первых, впереди ещё много
+                материала про &laquo;красотищу&raquo;. Во-вторых,
+                с&nbsp;окончанием курса учёба не&nbsp;заканчивается.
+                Вёрстка&nbsp;&mdash; это целый мир. И&nbsp;этот мир постоянно
+                меняется. Познать его полностью не&nbsp;получится, но&nbsp;это
+                тот случай, когда важен сам процесс познания. Ведь часто
+                путь&nbsp;&mdash; и&nbsp;есть результат.
+              </p>
+            </li>
+            <li class="post_paragraph">
+              <blockquote cite="https://bbf.ru/quotes/source/83142/">
+                <p class="post_content">
+                  Встречай трудности без страха! Сплетни и раболепства оставь трущобным крысам которые не умеют постоять за себя.
+                  <br>
+                  <p class="post_content author_quote">- Кодлак Белая Грива</p>
+                </p>
+              </blockquote>
+            </li>
+          </ul>
+          <div class="post_buttons">
+            <button class="card__icon-button" type="button">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="like-icon" viewBox="0 0 40 40">
+                <g class="heart">  
+                <path class = "contour" fill="var(--color-contour)"
+                    d="M12 6H9v3h3V6Zm3 0h-3v3h3V6ZM9 9H6v3h3V9Zm0 3H6v3h3v-3Zm0 3H6v3h3v-3Zm9-9h-3v3h3V6Zm-6 12H9v3h3v-3Zm3 3h-3v3h3v-3Zm3 3h-3v3h3v-3Zm9-18h3v3h-3V6Zm-3 0h3v3h-3V6Zm6 3h3v3h-3V9Zm0 3h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-9-9h3v3h-3V6Zm6 12h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0-18h-3v3h3V9Z" />
+                  <path class="main-body" fill="none"
+                    d="M12 9H9v3h3V9Zm3 3h-3v3h3v-3Zm3-3h-3v3h3V9Zm-6 6H9v3h3v-3Zm3 0h-3v3h3v-3Zm0 3h-3v3h3v-3Zm3-6h-3v3h3v-3Zm0 9h-3v3h3v-3Zm0-3h-3v3h3v-3Zm9-9h3v3h-3V9Zm-3 0h3v3h-3V9Zm3 3h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm-3-3h3v3h-3V9Zm6 6h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-3-6h3v3h-3v-3Zm0 9h3v3h-3v-3Zm0-3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0 3h-3v3h3v-3Z" />
+                  <path class = "core" fill="none" d="M18 15h-3v3h3v-3Zm3 0h3v3h-3v-3Zm0 0h-3v3h3v-3Zm0-3h-3v3h3v-3Zm0 6h-3v3h3v-3Z" />
+                  <path class="sparks" fill="var(--color-sparks)"
+                    d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z" />
+                </g>
+                  </svg>
+            </button>
+            <button class="buttons card__like-button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <button class="buttons button_save" type="button" onclick="window['dialog-id'].showModal();"
+      aria-controls="dialog-id">
+      <svg class="floppy">
+        <use href="./svg/floppy.svg#floppy">
+      </svg>
+      <span class="button__text">Сохранить на память</span>
+    </button>
+    <dialog id="dialog-id" class="dialog-id">
+      <div class="show_dialog">
+        <svg class="floppy_dialog" viewBox="0 0 28 28">
+          <use href="./svg/floppy.svg#floppy">
+        </svg>
+        <p class="content_dialog">
+          Вставьте дискету, чтобы продолжить
+        </p>
+      </div>
+      <button class="buttons button_dialog" type="button" onclick="window['dialog-id'].close()">
+        <span class="button__text">ok</span>
+      </button>
+    </dialog>
+  </main>
+  <script src="./scripts/like.js"></script>
+</body>
+
 </html>

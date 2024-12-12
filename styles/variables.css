@@ -1,1 +1,21 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --inter: 'Inter-Variable';
+  --PressStart2P: 'PressStart2P';
+  --font-weight-title-inter: 700;
+  --font-weight-content-inter:400;
+  --header-title-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --header-subtitle-font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --header-block-width-size: clamp(23.5rem, 16.3697rem + 30.4225vw, 43.75rem);
+  --header-block-height-size: clamp(20.4375rem, 19.5385rem + 3.8462vw, 23rem);
+  --color-contour: #000;
+  --color-sparks: red;
+  --background-color-page:repeating-linear-gradient(to right,#d3d3d3 0 2px, transparent 2px 4px), 
+  repeating-linear-gradient(to bottom,#d3d3d3 0 2px, transparent 2px 4px),
+  linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  --accent-color: #000;
+  --color-backdrop: rgba(0, 0, 0, 0.75);
+  --inline-size-desktop: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+  --font-size-mini-mob-title: clamp(1.875rem, -5.0341rem + 34.5455vw, 3.0625rem);
+  --font-size-mini-mob-subtitle: clamp(0.625rem, -0.8295rem + 7.2727vw, 0.875rem);
+}
