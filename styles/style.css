@@ -19,6 +19,7 @@
   background-attachment: fixed;
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  font-variation-settings: 'wght' var(--font-weight-content-inter);
 }
 
 .header {
@@ -73,7 +74,7 @@
 }
 
 .post_title {
-  font-weight: var(--font-weight-title-inter);
+  font-variation-settings: 'wght' var(--font-weight-title-inter);
   font-size: 18px;
 }
 
